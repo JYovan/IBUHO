@@ -294,6 +294,7 @@ a.read_more2:hover {
     background: #fff;
     color: #206ea5;
     border: 1px solid #fff;
+    text-decoration: none;
 }
 
 	
@@ -438,6 +439,7 @@ a.contact_btn {
     background: #fff;
     text-transform: uppercase;
     display: block;
+    text-decoration: none;
     width: 176px;
     height: 49px;
     text-align: center;
@@ -620,8 +622,10 @@ img {
 
 .client_logos {
     background: #206ea5;
-    padding: 60px 0;
+    padding: 30px 0;
     margin-top: 60px;
+    color: #FFF;
+    font-size: 20px;
 }
 
 .client_logos ul {

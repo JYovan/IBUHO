@@ -18,6 +18,7 @@
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
 	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 	<script type="text/javascript" src="engine1/jquery.js"></script>
+        <script src="js/scripts.js"></script>
 	<!-- End WOWSlider.com HEAD section -->
 
 <!--[if lt IE 9]>
@@ -503,19 +504,19 @@
                                     <div class="member-container" data-wow-delay=".5s">
                                             <div class="inner-container">
                                                     <div class="author-avatar">									
-                                                        <img class="img-circle" src="img/images_products/general.png" alt="Team Menber">
+                                                        <img class="img-circle" src="img/images_products/logo delhy color.jpg" alt="Team Menber">
                                                     </div><!-- /.author-avatar -->
                                                     <div class="member-details">
                                                             <div class="member-top">									
                                                                     <h4 class="name">
-                                                                            Raza Vaquera
+                                                                            Deldhy Hats
                                                                     </h4>
                                                                     <span class="designation">
                                                                             Manufactura de sombreros
                                                                     </span>
                                                             </div><!-- /.member-top -->
                                                             <p>
-                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.
+                                                            Fabricación de sombreros, gorras, cachuchas, boinas, viseras y otros accesorios similares hechos a base de materiales diversos
                                                             </p>
                                                             <div class="member-social-link">
                                                                     <a href="#" class="facebook-btn"><i class="fa fa-facebook"></i></a>
@@ -531,12 +532,12 @@
                                     <div class="member-container" data-wow-delay=".7s">
                                             <div class="inner-container">
                                                     <div class="author-avatar">									
-                                                        <img class="img-circle" src="img/images_products/general.png" alt="Team Menber">
+                                                        <img class="img-circle" src="img/images_products/logo wrangler color.jpg" alt="Team Menber">
                                                     </div><!-- /.author-avatar -->
                                                     <div class="member-details">
                                                             <div class="member-top">									
                                                                     <h4 class="name">
-                                                                            Deldhy Hats
+                                                                            Wrangler Hats
                                                                     </h4>
                                                                     <span class="designation">
                                                                             Manufactura de Sombreros
@@ -692,14 +693,14 @@
  
         <div class="col-lg-12 wow fadeInLeft delay-06s">
           <div class="form">
-            <input class="input-text" type="text" name="" value="Nombre *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-            <input class="input-text" type="text" name="" value="Correo electrónico *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Escribe aquí tu mensaje. *</textarea>
-            <input class="input-btn" type="submit" value="Enviar Mensaje">
+              <input id="txtNombre" class="input-text" type="text" name="" value="Nombre *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+              <input id="txtEmail" class="input-text" type="text" name="" value="Correo electrónico *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+              <textarea id="txtMensaje" class="input-text text-area" cols="5" rows="5" onFocus="if(this.value===this.defaultValue)this.value='';" onBlur="if(this.value==='')this.value=this.defaultValue;">Escribe aquí tu mensaje. *</textarea>
+            <input id="btnEnviar" class="input-btn" type="submit" value="Enviar Mensaje">
           
           
             <br><br>
-           
+            <div id="result-contact-messages"></div>
       
                 <div class="col-lg-4">
                 <h4>Estamos ubicados en:</h4>   
